@@ -1,11 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Header from './componentes/Header.jsx'
+import Main from './componentes/Main.jsx'
+import Footer from './componentes/Footer.jsx'
 
 function App() {
 
-  return "Hola como estan"
+  return <>
+  
+  <Header />
+  <Main/>
+  <Footer/>
+
+  </>
 }
 
-export default App
+export default App;
